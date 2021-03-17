@@ -34,10 +34,11 @@ body {
 
 #links
 {
-display:block;
+display:block;/*This puts the text for the links into position*/
 float:right;	
 margin-top:25px;
 margin-right:10px;
+font: Arial, Helvetica, sans-serif;
 
 }
 
@@ -47,18 +48,19 @@ font-size:16px;
 font-weight:bold;
 margin-left:4px;
 margin-right:4px;
-color: #FDF5E6;
+color: #FDF5E6;/*This determines the font size and how large of a space it takes up in the "header" along with having its default look as a cream text until hover'd over*/
 text-decoration:none;
 }
 
 #links a:hover
 {
 border-bottom:dotted 1px #1652B4;
+color: #000000;/*This change the text color to black if you hoverover it*/
 }
 
 #header
 {
-height:113px;
+height:113px;/*This displays the image behind the header along with the actually size heightght wise*/
 background-image:url("images/HeaderImg.png");
 }
 
@@ -67,7 +69,7 @@ background-image:url("images/HeaderImg.png");
 margin-top:15px;
 margin-left:10px;
 font-size:33px;
-color:#0A2645;
+color:#0A2645;/*This moves the h1 text to the left it determines its size and how larger it intracts within the header*/
 float:left;
 }
 
@@ -155,7 +157,9 @@ overflow: hidden;
 .highlightlb3 {background-color: #ff9800;} /* Orange */
 .highlightlb4 {background-color: #f44336;} /* Red */ 
 .highlightlb5 {background-color: #e7e7e7; color: black;} /* Gray */ 
-
+.LastText{
+	text-align:center;
+}
 .pageTitle {
 	   padding: 10px;
   text-align: center;
